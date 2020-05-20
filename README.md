@@ -2,36 +2,36 @@
 
 <a href="https://rentry.co/"><img width="110" height="110" src="https://rentry.co/static/logo-border-fit.png" align="right" alt="rentry.co markdown pastebin"></a>
 
-[Rentry.co](https://rentry.co) is markdown-powered pastebin/publishing service with preview, custom urls and editing. 
+[Rentry.co](https://rentry.co) Ist ein Pastebin- / Publishing-Service mit Vorschau. Schnell, einfach, ohne Anmeldung und sogar kostenlos. Aber mit Spionage durch Google-Analytics!  
 
-This repository contains a simple script that allows pasting and editing from command line interface.  
-  
+Dieses Repositorium enth&auml;lt ein einfaches Skript, welches das Ver&ouml;ffentlichen und Editieren von der Kommandozeile aus erlaubt.
+
   
 ## Installation
 
-##### Manually:  
+##### Manuell:  
 ```sh
 wget https://raw.githubusercontent.com/radude/rentry/master/rentry -O ./rentry && chmod +x ./rentry
 ```
 
-##### [PyPI](https://pypi.python.org/pypi/rentry):
+##### Mit [PyPI](https://pypi.python.org/pypi/rentry):
 ```sh
 pip3 install rentry
 ```
 
-## Usage
+## Anwendung:
 
 ```console
 $ rentry --help
 
-Usage: rentry {new | edit | raw} {-h | --help} {-u | --url} {-p | --edit-code} text
+Befehl: rentry {new | edit | raw} {-h | --help} {-u | --url} {-p | --edit-code} Mein_Text
 
 Commands:
-  new   create a new entry
-  edit  edit an existing entry
-  raw   get raw markdown text of an existing entry
-    
-Options:
+  new   Ver&ouml;ffentlicht eine neue Rentry.co-Seite
+  edit  Editiere eine existierende Rentry.co-Seite
+  raw   Zeidt den puren Markdown-Text einer existierenden Rentry.co-Seite
+  
+Optionen:
   -h, --help                 show this help message and exit
   -u, --url URL              url for the entry, random if not specified
   -p, --edit-code EDIT-CODE  edit code for the entry, random if not specified
@@ -47,9 +47,9 @@ Examples:
     
 ```
 
-##### Url
+##### URL
 
-Optional Url can be set (`-u, --url URL`)  
+Optional URL can be set (`-u, --url URL`)  
 It goes rentry.co/HERE. If no Url was set then random Url will be generated automatically.
 
 ##### Edit code
