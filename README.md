@@ -2,7 +2,7 @@
 
 <a href="https://rentry.co/"><img width="110" height="110" src="https://rentry.co/static/logo-border-fit.png" align="right" alt="rentry.co markdown pastebin"></a>
 
-[Rentry.co](https://rentry.co) Ist ein Pastebin- / Publishing-Service mit Vorschau. Schnell, einfach, ohne Anmeldung und sogar kostenlos. Aber mit Spionage durch Google-Analytics!  
+[Rentry.co](https://rentry.co) ist ein Pastebin- / Publishing-Service mit Vorschau. Schnell, einfach, ohne Anmeldung und sogar kostenlos. Aber mit Spionage durch Google-Analytics!  
 
 Dieses Repositorium enth&auml;lt ein einfaches Skript, welches das Ver&ouml;ffentlichen und Editieren von der Kommandozeile aus erlaubt.
 
@@ -26,19 +26,19 @@ $ rentry --help
 
 Befehl: rentry {new | edit | raw} {-h | --help} {-u | --url} {-p | --edit-code} Mein_Text
 
-Commands:
-  new   Ver&ouml;ffentlicht eine neue Rentry.co-Seite
+Befehls-Parameter:
+  new   Veroeffentlicht eine neue Rentry.co-Seite
   edit  Editiere eine existierende Rentry.co-Seite
   raw   Zeidt den puren Markdown-Text einer existierenden Rentry.co-Seite
   
 Optionen:
   -h, --help                 show this help message and exit
-  -u, --url URL              url for the entry, random if not specified
+  -u, --url       URL        URL for the entry, random if not specified
   -p, --edit-code EDIT-CODE  edit code for the entry, random if not specified
     
 Examples:
   rentry new 'markdown text'               # new entry with random url and edit code
-  rentry new -p pw -u example 'text'       # with custom edit code and url 
+  rentry new  -p pw -u example 'text'      # with custom edit code and url 
   rentry edit -p pw -u example 'text'      # edit the example entry
   cat FILE | rentry new                    # read from FILE and paste it to rentry
   cat FILE | rentry edit -p pw -u example  # read from FILE and edit the example entry
