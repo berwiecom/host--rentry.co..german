@@ -29,7 +29,7 @@ Befehl: rentry {new | edit | raw} {-h | --help} {-u | --url} {-p | --edit-code} 
 Befehls-Parameter:
   new   Veroeffentlicht eine neue Rentry.co-Seite
   edit  Editiere eine existierende Rentry.co-Seite
-  raw   Zeidt den puren Markdown-Text einer existierenden Rentry.co-Seite
+  raw   Zeigt den puren Markdown-Text einer existierenden Rentry.co-Seite
   
 Optionen:
   -h, --help                 show this help message and exit
