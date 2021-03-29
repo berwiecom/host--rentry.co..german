@@ -2,7 +2,7 @@
 
 <a href="https://rentry.co/"><img width="110" height="110" src="https://rentry.co/static/logo-border-fit.png" align="right" alt="rentry.co markdown pastebin"></a>
 
-[Rentry.co](https://rentry.co) ist ein Pastebin- / Publishing-Service von (@radude)[https://github.com/radude] mit Vorschau. Schnell, einfach, ohne Anmeldung und sogar kostenlos. Aber mit Spionage durch Google-Analytics!  
+[Rentry.co](https://rentry.co) ist ein Pastebin- / Publishing-Service von [@radude](https://github.com/radude) mit Vorschau. Schnell, einfach, ohne Anmeldung und sogar kostenlos. Aber mit Spionage durch Google-Analytics!  
 
 Dieses Repositorium enth&auml;lt ein einfaches Skript, welches das Ver&ouml;ffentlichen und Editieren von der Kommandozeile aus erlaubt.
 
@@ -27,7 +27,7 @@ $ rentry --help
 Befehl: rentry {new | edit | raw} {-h | --help} {-u | --url} {-p | --edit-code} Mein_Text
 
 Befehls-Parameter:
-  new   Veroeffentlicht eine neue Rentry.co-Seite
+  new   Ver&ouml;ffentlicht eine neue Rentry.co-Seite
   edit  Editiere eine existierende Rentry.co-Seite
   raw   Zeigt den puren Markdown-Text einer existierenden Rentry.co-Seite
   
