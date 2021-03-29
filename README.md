@@ -2,7 +2,7 @@
 
 <a href="https://rentry.co/"><img width="110" height="110" src="https://rentry.co/static/logo-border-fit.png" align="right" alt="rentry.co markdown pastebin"></a>
 
-[Rentry.co](https://rentry.co) ist ein Pastebin- / Publishing-Service mit Vorschau. Schnell, einfach, ohne Anmeldung und sogar kostenlos. Aber mit Spionage durch Google-Analytics!  
+[Rentry.co](https://rentry.co) ist ein Pastebin- / Publishing-Service von (@radude)[https://github.com/radude] mit Vorschau. Schnell, einfach, ohne Anmeldung und sogar kostenlos. Aber mit Spionage durch Google-Analytics!  
 
 Dieses Repositorium enth&auml;lt ein einfaches Skript, welches das Ver&ouml;ffentlichen und Editieren von der Kommandozeile aus erlaubt.
 
